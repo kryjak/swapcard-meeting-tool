@@ -11,7 +11,6 @@ Usage:
 
 Configuration:
     Copy .env.example to .env and fill in at minimum SWAPCARD_TOKEN and CANDIDATES_FILE.
-    Edit MANUAL_BUSY in this file for blocking times not captured in your Swapcard export.
 
 How to export my_availability.json:
     Open Swapcard → your schedule page → DevTools (F12) → Network tab →

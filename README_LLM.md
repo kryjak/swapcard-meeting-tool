@@ -440,7 +440,6 @@ The `output/meeting_candidates_latest.md` symlink is overwritten on each run (po
 
 ### Key changes vs original `timeslot_optimisation/schedule.py`
 - All config moved to `.env` / `python-dotenv` (TOKEN, EVENT_ID, DATE_RANGE, file paths, etc.)
-- `MANUAL_BUSY` stays as a Python list in the file (multi-line, event-specific)
 - `load_my_busy_slots`: removed `break` — now processes ALL `data.agenda` responses and deduplicates by `(start, end)`
 - `load_candidates`: removed `RXZlbn` prefix filter — both `CommunityProfile_*` and `EventPeople_*` IDs work with `MeetSlotsQuery` (confirmed by live API test)
 - `_fetch_slots`: exits with a clear message on HTTP 401/403 (expired token)

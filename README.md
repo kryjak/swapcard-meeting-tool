@@ -65,9 +65,6 @@ All settings live in `.env` (copy `.env.example`). Key variables:
 | `RANKINGS_TO_CONSIDER` | `4,5` | Which relevance scores to schedule |
 | `PREFER_MEETING_GAP` | `true` | Insert 25-min buffer between meetings when possible |
 
-Manual busy intervals (talks, travel, meals) that aren't in your Swapcard export go
-directly in `schedule.py` as the `MANUAL_BUSY` list at the top of the file.
-
 ## Exporting your Swapcard availability
 
 The scheduler needs your existing agenda to avoid double-booking:

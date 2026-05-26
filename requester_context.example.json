@@ -1,0 +1,14 @@
+{
+  "name": "Jakub Krys",
+
+  "swapcard_id": null,
+  // Leave null to auto-discover from name search (recommended first run).
+  // If your name matches multiple people, the tool prints all matches and asks
+  // you to paste the correct one here.
+  // This is the TOOL's internal ID (e.g. "jakub-krys-6dc475a704") shown in
+  // search output — NOT the Swapcard community-profile URL ID.
+
+  "extra_context": "Paste anything here that would help the LLM understand you better: your bio, website content, current projects, what you've been thinking about lately. The more specific, the better the recommendations.",
+
+  "goals": "What do you specifically want to get from this conference? E.g. 'I'm looking for potential research collaborators on AI interpretability, people with experience running field experiments in LMICs, and anyone thinking seriously about compute governance.'"
+}

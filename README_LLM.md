@@ -210,13 +210,13 @@ All config lives in `.env` (see `.env.example`). Variables are loaded by both Py
 | `RANKINGS_TO_CONSIDER` | `4,5` | Scores to schedule |
 | `PREFER_MEETING_GAP` | `true` | Post-processing gap insertion |
 
-### Node.js scripts only
-| Variable | File | Default |
+### Sheet identity (used by all Node.js scripts)
+| Variable | Default | Purpose |
 |---|---|---|
-| `SHEET_ID` | `lib/sheet.ts` | EAG London 2026 sheet |
-| `SHEET_GID` | `lib/sheet.ts` | `43679916` |
+| `SHEET_ID` | EAG London 2026 sheet | Google Sheet ID |
+| `SHEET_GID` | `43679916` | Sheet tab (gid) |
 
-Set in shell or prepend: `SHEET_ID=abc npm run find -- "Alice"`.
+Set in `.env` — loaded automatically by all `npm run` scripts via `--env-file=.env`.
 
 ---
 

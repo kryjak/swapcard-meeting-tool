@@ -85,8 +85,8 @@ Getting a fresh `SWAPCARD_TOKEN`:
 ## Adapting to a different event
 
 ```bash
-SHEET_ID=<new-id> SHEET_GID=<new-gid> npm run embed -- --force
-# update EVENT_ID, DATE_RANGE_START, DATE_RANGE_END in .env
+# edit SHEET_ID, SHEET_GID, EVENT_ID, DATE_RANGE_START, DATE_RANGE_END in .env
+npm run embed -- --force
 ```
 
 ## Changing sheet or event
